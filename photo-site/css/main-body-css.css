@@ -1,0 +1,50 @@
+.bodyCl{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.search-bl{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.search-bl .text{
+    text-align: center;
+    font: normal normal bold 25px Arial;
+    color: rgb(88, 82, 82);
+    margin: 15px;
+}
+
+.search-bl .under{
+    margin: 15px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.search-bl .under .searh-area{
+    font: normal normal bold 20px Arial;
+    color: rgb(88, 82, 82);
+    padding: 5px;
+    border-bottom: 1px solid rgb(138, 132, 126);
+    display: block;
+    border-radius: 5px;
+    margin: 5px;
+}
+.search-bl .under .searh-btn{
+    text-align: center;
+    font: normal normal bold 25px Arial;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgb(226, 117, 8), rgb(245, 149, 60));
+    background-color: darkorange;
+    border-bottom: 1px solid rgb(138, 132, 126);
+    display: block;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+.photo-bl{
+   
+}
