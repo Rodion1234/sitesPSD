@@ -46,5 +46,29 @@
 
 }
 .photo-bl{
-   
+   display: flex;
+   flex-direction: column;
+}
+.photo-bl-v{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.photo-bl-content{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(138, 132, 126);
+    box-shadow: 3px 3px 3px 2px rgb(138, 132, 126); 
+}
+.photo-bl-content img{
+    width: 256px;
+    height: 256px;
+    margin: 3px;
+    display: block;
+}
+.photo-bl-content text{
+    width: 256px;
+    height: 256px;
+    margin: 3px;
+    display: block;
 }

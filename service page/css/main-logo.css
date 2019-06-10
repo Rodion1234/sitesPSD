@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    /* background: rgb(45,45,45); */
+    justify-content: flex-end;
+    border-bottom: 1px solid rgb(193, 201, 200)
+}
+.logoA{
+    text-decoration: none;
+    margin: 0px auto 0px 10px;
+    padding:10px;
+    display: block;
+}
+.logoA:hover{
+    font-size: 26px;
+}
+
+.logo span{
+    font-family: 'Sansation Regular', arial;
+    font-size: 24px;
+    color: white;
+}
+.logo span span{
+    font-family: 'Sansation Regular', arial;
+    font-size: 24px;
+    color: rgb(218,45,70);
+    margin: 0px;
+    padding:0px;
+}
+
+.logo ul{
+    display: flex;
+    margin: 0px;
+    padding:0px;
+}
+.logo  ul li{
+    display: block;
+    font-family: 'Sansation Regular', arial;
+    font-size: 16px;
+    color: white;
+}
+.logo  ul li:hover{
+    color: rgb(14, 161, 142);
+}
+.logo  ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+}
+.logo  ul li a:hover{
+    text-decoration: none;
+    color: rgb(14, 161, 142);   
+    font-size: 17px;
+}
+
+.logo-follow{
+    display: flex;
+}
+.logo-follow-bg{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%; 
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.logo-follow-bg img{
+    margin: 10px 10px 10px 10px;
+}

@@ -1,0 +1,81 @@
+.three{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(58, 56, 56) ;
+}
+.three-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.three-text-bl{
+   
+    width:30%;
+    border-bottom: 3px solid rgb(245,245,245);
+}
+.three-text-bl-main{
+    font-family: 'Sansation Regular', arial;
+    font-size: 40px;
+    color:  rgb(245,245,245);
+    padding-top:54px;
+    padding-bottom:54px;
+}
+
+.th-bl{
+    display: flex;
+    flex-direction: row;
+}
+
+.three-bl{
+    display: flex;
+    flex-direction: column;
+    background-color: gray; 
+    align-content: center;
+}
+
+
+.three-bl-1{
+    background: url(../image/img-three/My\ Computer.png);
+    height: 128px;
+    width: 128px;
+    display: block;
+    margin:90px auto 0px auto;
+}
+
+.three-bl-2{
+    display: flex;
+    flex-direction: column;
+}
+.three-bl-2-sp1{
+    font-family: 'Sansation Bold', arial;
+    font-size: 24px;
+    color: white;
+    padding-top:55px;
+    padding-bottom:20px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.three-bl-2-sp2{
+    font-family: 'Sansation Bold', arial;
+    font-size: 14px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.three-bl-btn{
+    background-color:rgb(121, 117, 117) ;
+    color: white;
+    margin: 30px auto 100px auto;
+    padding: 10px;
+    border-radius: 5px; 
+    border: 1 solid white; 
+}
+.three-bl-btn:hover{
+    font-size: 14px;
+}
+
+.blue-back{
+    background: rgb(4, 146, 172);
+}
