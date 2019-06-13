@@ -1,0 +1,10 @@
+.five{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+}
+.five-img{
+margin: 20px;
+}

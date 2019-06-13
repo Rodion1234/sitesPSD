@@ -1,0 +1,147 @@
+.four{
+    display: flex;
+    background-color:rgb(121, 117, 117) ;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.four-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    max-width: 20%;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 3;
+}
+.four-text-span{
+    font-family: 'Sansation Regular', arial;
+    font-size: 18px;
+    color: rgb(202, 201, 201);
+    text-decoration: underline;
+    text-align: center;
+    margin: 0px 60px; 
+}
+.four-text-line{
+    background-color: rgb(202, 201, 201);
+    height: 3px;
+    width: 10%;
+    margin: 10px 60px;
+}
+
+.four-text-sp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+     /* margin: 0px 60px;  */
+}
+.four-text-sp-bl{
+   background: rgba(202, 201, 201, 0);
+   border: none;
+   font-family: 'Sansation Regular', arial;
+   color: rgb(202, 201, 201);
+   font-size: 24px;
+   /* padding-left: 10px;
+    padding-right: 10px;  */
+    /* margin: 0px 20px; */
+}
+.four-text-sp-tx{
+    background: rgba(202, 201, 201, 0);
+    border: none;
+    font-family: 'Sansation Regular', arial;
+    font-size: 14px;
+    text-decoration: underline;
+    text-align: center;
+    color: rgb(202, 201, 201);
+ }
+
+
+ .four-foto{
+     /* width: 95%; */
+     display: flex;
+     justify-content: space-between;
+
+ }
+ .four-foto-1{
+    background: url(../image/img-four/Model-1.png);
+    width: 249px;
+    height: 270px;
+    /* min-width: 0px;
+    min-height: 0px; */
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    display:  flex;
+    align-content: flex-end;
+    margin: 25px auto;
+ }
+ .four-foto-2{
+    background: url(../image/img-four/redhead_girl_glasses_61333_by_cobra69pl-d5s0291.png);
+    width: 249px;
+    height: 270px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    display:  flex;
+    align-content: flex-end;
+    margin: 25px auto;
+    min-width: 0px;
+    min-height: 0px;
+
+ }
+ .four-foto-3{
+    background: url(../image/img-four/13588755_798764966889716_858010646_o.png);
+    width: 249px;
+    height: 270px;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    display:  flex;
+    margin: 25px auto;
+    min-width: 0px;
+    min-height: 0px;
+    align-content: flex-end;
+ }
+
+ .four-foto-sec{
+     margin-top:auto; 
+     display: flex;
+ }
+ .four-foto-bl-1{
+    font-family: 'Sansation Regular', arial;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    margin: 5px;
+    
+    /* margin-top: auto; */
+ }
+ .four-foto-bl-2{
+    font-family: 'Sansation Regular', arial;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    /* margin-top: auto; */
+ }
+ .four-foto-bl-2 span{
+    font-family: 'Sansation Regular', arial;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    padding-right: 65px; 
+    /* margin-top: auto; */
+ }
+
+ .dop{
+    background: white;
+    color: rgb(131, 128, 128);
+}
+.dop-m{
+    color: rgb(131, 128, 128);
+}
+.dop-b{
+    background: rgb(131, 128, 128);
+}

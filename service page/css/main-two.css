@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: column;
     align-content: center;
-    height: 100%;
+    /* height: 100%; */
 }
 .two-text-sp-1{
     font-family: 'Sansation Regular', arial;

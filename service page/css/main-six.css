@@ -1,0 +1,51 @@
+.six{
+    display: flex;
+    /* flex-direction: row; */
+    background-color: rgb(9,126,137); 
+    /* justify-content: space-around; */
+}
+.six-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 40%
+}
+.six-text-1{
+    font-family: 'Sansation Regular', arial;
+    font-size: 25px;
+    color: white;
+    margin: 10px;
+}
+.six-text-2{
+    font-family: 'Sansation Regular', arial;
+    font-size: 14px;
+    color: white;
+    margin: 10px;
+}
+.six form{
+   display: flex; 
+   width: 60%;
+   justify-content: center;
+   align-items: center;
+}
+.six-form-text{
+    background: rgba(9, 126, 137, 0);
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    font-family: 'Sansation Regular', arial;
+    font-size: 16px;
+
+}
+.six-form-bt{
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    color: rgb(9,126,137);
+    border: 1px solid white;
+    font-family: 'Sansation Regular', arial;
+    font-size: 16px;
+
+}
+input[type="text"]::placeholder { color: white; }
+input[type="number"]::placeholder { color: white; }
